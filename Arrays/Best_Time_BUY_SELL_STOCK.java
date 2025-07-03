@@ -6,7 +6,9 @@ public class Best_Time_BUY_SELL_STOCK {
 
         for(int i=0; i<price.length; i++){
             if(Buying_Price < price[i]){
+                //formula to calculate profit current profit...
                 int profit = price[i] - Buying_Price; 
+                //global variable that store the value of maximum from both...
                 maxProfit = Math.max(maxProfit, profit);
                 
 
