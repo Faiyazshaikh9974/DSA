@@ -5,9 +5,7 @@ public class Linear {
         int largest = arr[0];
 
         for(int i=0; i<arr.length; i++ ){
-            if(arr[i]> largest){
-                largest = arr[i];
-            }
+            largest = Math.max(arr[i], largest);
         }
 
         System.out.println(largest);

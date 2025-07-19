@@ -5,20 +5,20 @@ public class Kadane_Algo{
         int maxSum = Integer.MIN_VALUE;
 
         for(int i=0; i<nums.length; i++){
-            currentSum += nums[i];
+            currentSum+= nums[i];
+
+            //check if currentSum is Less then Zero
             if(currentSum < 0){
                 currentSum = 0;
             }
 
+            //check if the CurrentSum is Greather than MaxSum 
             if(currentSum > maxSum){
                 maxSum = currentSum;
             }
-
-
         }
 
-        System.out.println("Max Sum of Sub array is: "+ maxSum);
-
+        System.out.println("Max of Sub Array is "+ maxSum);
     }
 
     public static void main(String[] args) {
