@@ -11,7 +11,7 @@ public class Bubble_sort_algo {
                     int temp = nums[j + 1];
                     nums[j + 1] = nums[j];
                     nums[j] = temp;
-                    sort++;
+                    sort++; //count the 
                 }
 
             }
@@ -20,7 +20,6 @@ public class Bubble_sort_algo {
                 break;
             }
 
-            System.out.println(sort);
         }
 
     }

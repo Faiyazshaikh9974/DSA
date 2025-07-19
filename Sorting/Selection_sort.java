@@ -2,7 +2,7 @@ package Sorting;
 
 public class Selection_sort {
     
-    public static void Selection_sort_alogirtham(int nums[]){  //intput {4,2,6,1};  {1,2,6,4}, {1,2,4,6}
+    public static void Selection_sort_algoritham(int nums[]){  //intput {4,2,6,1};  {1,2,6,4}, {1,2,4,6}
 
         //outer loop run from zero to n-1 
         for(int i=0; i<nums.length-1; i++){
@@ -34,7 +34,7 @@ public class Selection_sort {
     public static void main(String[] args) {
 
         int arr [] = {4,2,6,1};
-        Selection_sort_alogirtham(arr);
+        Selection_sort_algoritham(arr);
         PrintArray(arr);
         
 
